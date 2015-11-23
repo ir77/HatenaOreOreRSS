@@ -14,6 +14,13 @@
 		B11B25F11C016163005A353C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11B25EF1C016163005A353C /* LaunchScreen.storyboard */; };
 		B11B25FC1C016163005A353C /* HatenaOreoreRSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B25FB1C016163005A353C /* HatenaOreoreRSSTests.swift */; };
 		B11B26071C016163005A353C /* HatenaOreoreRSSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B26061C016163005A353C /* HatenaOreoreRSSUITests.swift */; };
+		B16DCBFC1C01C13900D83F71 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DCBFB1C01C13900D83F71 /* CustomCell.swift */; };
+		B1B6AD851C01707D00FF3A37 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6AD841C01707D00FF3A37 /* Model.swift */; };
+		B1B6AD871C01724C00FF3A37 /* MyHatenaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6AD861C01724C00FF3A37 /* MyHatenaManager.swift */; };
+		B1D7AC441C018DF900F079EB /* MyHTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D7AC431C018DF900F079EB /* MyHTMLParser.swift */; };
+		B1D7AC831C01AC4F00F079EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D7AC821C01AC4F00F079EB /* DetailViewController.swift */; };
+		B1E29A171C017F3700E0D9C2 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E29A161C017F3700E0D9C2 /* RealmManager.swift */; };
+		CA0F7F7C9AC06E45FB10867F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4A496947F21925268DE8AA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A03BC30C97734077874AC90 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5B4A496947F21925268DE8AA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88609E0578B5FEE5A07B458F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B11B25E31C016163005A353C /* HatenaOreoreRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatenaOreoreRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11B25E61C016163005A353C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B11B25E81C016163005A353C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,13 @@
 		B11B26021C016163005A353C /* HatenaOreoreRSSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatenaOreoreRSSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11B26061C016163005A353C /* HatenaOreoreRSSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatenaOreoreRSSUITests.swift; sourceTree = "<group>"; };
 		B11B26081C016163005A353C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11B26141C016330005A353C /* HatenaOreoreRSS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HatenaOreoreRSS-Bridging-Header.h"; sourceTree = "<group>"; };
+		B16DCBFB1C01C13900D83F71 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		B1B6AD841C01707D00FF3A37 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B1B6AD861C01724C00FF3A37 /* MyHatenaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHatenaManager.swift; sourceTree = "<group>"; };
+		B1D7AC431C018DF900F079EB /* MyHTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHTMLParser.swift; sourceTree = "<group>"; };
+		B1D7AC821C01AC4F00F079EB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B1E29A161C017F3700E0D9C2 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0F7F7C9AC06E45FB10867F /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		477D373BE13888135F542194 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A03BC30C97734077874AC90 /* Pods.debug.xcconfig */,
+				88609E0578B5FEE5A07B458F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DE95D5094595A4019C37481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B4A496947F21925268DE8AA /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B11B25DA1C016163005A353C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				B11B25FA1C016163005A353C /* HatenaOreoreRSSTests */,
 				B11B26051C016163005A353C /* HatenaOreoreRSSUITests */,
 				B11B25E41C016163005A353C /* Products */,
+				477D373BE13888135F542194 /* Pods */,
+				7DE95D5094595A4019C37481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +134,18 @@
 		B11B25E51C016163005A353C /* HatenaOreoreRSS */ = {
 			isa = PBXGroup;
 			children = (
+				B1B6AD881C017DF200FF3A37 /* Model */,
+				B1B6AD891C017DFC00FF3A37 /* Manager */,
+				B1D7AC451C018E2D00F079EB /* Parser */,
 				B11B25E61C016163005A353C /* AppDelegate.swift */,
 				B11B25E81C016163005A353C /* ViewController.swift */,
+				B1D7AC821C01AC4F00F079EB /* DetailViewController.swift */,
 				B11B25EA1C016163005A353C /* Main.storyboard */,
+				B16DCBFB1C01C13900D83F71 /* CustomCell.swift */,
 				B11B25ED1C016163005A353C /* Assets.xcassets */,
 				B11B25EF1C016163005A353C /* LaunchScreen.storyboard */,
 				B11B25F21C016163005A353C /* Info.plist */,
+				B11B26141C016330005A353C /* HatenaOreoreRSS-Bridging-Header.h */,
 			);
 			path = HatenaOreoreRSS;
 			sourceTree = "<group>";
@@ -125,6 +168,31 @@
 			path = HatenaOreoreRSSUITests;
 			sourceTree = "<group>";
 		};
+		B1B6AD881C017DF200FF3A37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6AD841C01707D00FF3A37 /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B1B6AD891C017DFC00FF3A37 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6AD861C01724C00FF3A37 /* MyHatenaManager.swift */,
+				B1E29A161C017F3700E0D9C2 /* RealmManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		B1D7AC451C018E2D00F079EB /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				B1D7AC431C018DF900F079EB /* MyHTMLParser.swift */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B11B260B1C016163005A353C /* Build configuration list for PBXNativeTarget "HatenaOreoreRSS" */;
 			buildPhases = (
+				266AF8A5F2FEA848B9A38FA7 /* Check Pods Manifest.lock */,
 				B11B25DF1C016163005A353C /* Sources */,
 				B11B25E01C016163005A353C /* Frameworks */,
 				B11B25E11C016163005A353C /* Resources */,
+				ECA35B0639BE5306277AD9E8 /* Embed Pods Frameworks */,
+				DD4C121EE0BAE05BBB0101BB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +264,7 @@
 				TargetAttributes = {
 					B11B25E21C016163005A353C = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = F43SLH6F63;
 					};
 					B11B25F61C016163005A353C = {
 						CreatedOnToolsVersion = 7.1;
@@ -251,13 +323,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		266AF8A5F2FEA848B9A38FA7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4C121EE0BAE05BBB0101BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA35B0639BE5306277AD9E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B11B25DF1C016163005A353C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B6AD851C01707D00FF3A37 /* Model.swift in Sources */,
 				B11B25E91C016163005A353C /* ViewController.swift in Sources */,
+				B1E29A171C017F3700E0D9C2 /* RealmManager.swift in Sources */,
+				B1D7AC441C018DF900F079EB /* MyHTMLParser.swift in Sources */,
+				B1B6AD871C01724C00FF3A37 /* MyHatenaManager.swift in Sources */,
 				B11B25E71C016163005A353C /* AppDelegate.swift in Sources */,
+				B16DCBFC1C01C13900D83F71 /* CustomCell.swift in Sources */,
+				B1D7AC831C01AC4F00F079EB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +523,36 @@
 		};
 		B11B260C1C016163005A353C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A03BC30C97734077874AC90 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HatenaOreoreRSS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoge.HatenaOreoreRSS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HatenaOreoreRSS/HatenaOreoreRSS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B11B260D1C016163005A353C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88609E0578B5FEE5A07B458F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HatenaOreoreRSS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoge.HatenaOreoreRSS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HatenaOreoreRSS/HatenaOreoreRSS-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +623,7 @@
 				B11B260D1C016163005A353C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B11B260E1C016163005A353C /* Build configuration list for PBXNativeTarget "HatenaOreoreRSSTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +632,7 @@
 				B11B26101C016163005A353C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B11B26111C016163005A353C /* Build configuration list for PBXNativeTarget "HatenaOreoreRSSUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +641,7 @@
 				B11B26131C016163005A353C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

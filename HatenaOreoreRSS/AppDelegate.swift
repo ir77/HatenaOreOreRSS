@@ -6,6 +6,17 @@
 //  Copyright © 2015年 ucuc. All rights reserved.
 //
 
+/*
+* DONE: 過去のデータのrealmへの格納
+* DONE: TableViewの作成
+* DONE: 記事のサムネイルの取得
+* DONE: お気に入りの人が読んだかどうか仕分け
+-> newFeed追加時にfavoriteFeedから判定
+* DONE: DetailViewControllerの表示
+*
+* TODO: カテゴリの選択
+*/
+
 import UIKit
 
 @UIApplicationMain

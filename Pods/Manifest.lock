@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (3.1.2)
+  - HTMLReader (0.9.3)
+  - MBProgressHUD (0.9.1)
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser (= 1.0.1)
+    - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
+    - MWFeedParser/NSString+HTML (= 1.0.1)
+  - MWFeedParser/FeedParser (1.0.1):
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - Realm (0.96.2):
+    - Realm/Headers (= 0.96.2)
+  - Realm/Headers (0.96.2)
+  - RealmSwift (0.96.2):
+    - Realm (= 0.96.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - HTMLReader
+  - MBProgressHUD (~> 0.9.1)
+  - MWFeedParser
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 7c16ca65f3c7e681fd925fd7f2dec7747ff96855
+  HTMLReader: 01de6ebb3b5f0f9dc4f6f165fdac0a15b3648167
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  Realm: 3ce8448151c571e90b85002d984d7f93f54fc8a3
+  RealmSwift: 485599fe54e35461c4a0daa7d01d8fbf11424873
+
+COCOAPODS: 0.39.0
